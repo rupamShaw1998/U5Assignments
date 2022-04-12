@@ -1,0 +1,32 @@
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+}
+
+h1 {
+    color: purple;
+}
+
+#tree {
+    display: flex;
+}
+
+#root {
+    margin: 1% 5%;
+}
+
+.flexing {
+    display: flex;
+}
+
+#morningDiv, #afternoonDiv, #eveningDiv, #nightDiv {
+    color: red;
+    margin: 4% 5% 0;
+    font-size: 18px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="src/index.css"> -->
+</head>
+<body>
+    <div id="image"></div>
+    <div id="tree">
+        <div id="stem">
+            <h1>Enter Your Today's Tasks</h1>
+            Morning:
+            <input type="text" id="morning"><br><br>
+            Afternoon:
+            <input type="text" id="afternoon"><br><br>
+            Evening:
+            <input type="text" id="evening"><br><br>
+            Night:
+            <input type="text" id="night"><br><br>
+            <button>Save</button>
+        </div>
+        <div id="root">
+            <div class="flexing">
+                <h3>Morning:</h3>
+                <div id="morningDiv"></div>
+            </div>
+            <div class="flexing">
+                <h3>Afternoon:</h3>
+                <div id="afternoonDiv"></div>
+            </div>
+            <div class="flexing">
+                <h3>Evening:</h3>
+                <div id="eveningDiv"></div>
+            </div>
+            <div class="flexing">
+                <h3>Night:</h3>
+                <div id="nightDiv"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="build/bundle.js"></script>
