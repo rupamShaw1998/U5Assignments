@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.item {
+  border: 1px solid;
+  width: 200px;
+  margin: auto;
+  border-radius: 7px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
