@@ -10,13 +10,13 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Button theme="blueBG">Primary Button</Button>
-        <Button theme="border">Default Button</Button>
-        <Button theme="dashed">Dashed Button</Button>
+        <Button rang="white" bg="#2490fe">Primary Button</Button>
+        <Button boundary="1px solid">Default Button</Button>
+        <Button boundary="1px dashed">Dashed Button</Button>
       </div>
       <div>
-        <Button theme="text">Text Button</Button>
-        <Button theme="blueText">Link Button</Button>
+        <Button>Text Button</Button>
+        <Button rang="#2490fe">Link Button</Button>
       </div>
     </div>
   );
